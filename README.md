@@ -7,11 +7,11 @@ iOS活动倒计时的两种实现方式
 
 ![倒计时.png](https://github.com/ZLFighting/ZLCountdownDemo/blob/master/ZLCountdownDemo-活动倒计时两种方式(NSTimer%2C%20GCD)/截图.png)
 
->现提供两种方案:
+> 现提供两种方案:
 一.使用NSTimer定时器来倒计时
 二.使用GCD来倒计时(用GCD这个写有一个好处，跳页不会清零, 跳页清零会出现倒计时错误的)
 
-##一. 使用NSTimer定时器来倒计时
+## 一. 使用NSTimer定时器来倒计时
 
 **主要步骤:**
 Step1. 计算截止时间与当前时间差
@@ -95,7 +95,7 @@ return;
 NSTimer-活动倒计时测试效果如下:
 ![NSTimer-活动倒计时.gif](https://github.com/ZLFighting/ZLCountdownDemo/blob/master/ZLCountdownDemo-活动倒计时两种方式(NSTimer%2C%20GCD)/NSTimer.gif)
 
-##二. 使用GCD来倒计时
+## 二. 使用GCD来倒计时
 
 **主要步骤:**
 Step1. 计算截止时间与当前时间差
